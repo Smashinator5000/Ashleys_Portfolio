@@ -10,11 +10,14 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles2.css">
   </head>
   <body>
     <header>
       <nav class="navbarfi navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.html"> Navbar </a>
+        <a class="navbar-brand" href="./index.html"> Ashley </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,134 +46,85 @@
         </div>
       </nav>
     </header>
-    <!-- MAIN (Center website) -->
+
     <div class="main">
       <h1>Welcome!</h1>
       <hr />
 
-      <h2>PORTFOLIO</h2>
-      <p>More content coming soon...</p>
+      <p></p>
 
-      <!-- Portfolio Gallery Grid -->
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT84NMYwIhudYEE7PSf8PDxj7phCkcttq2Gkg&usqp=CAU"
-              alt="baby yoda"
-            />
-            <div class="baby yoda">
-              <h2>The Child</h2>
-              <p>
-                I, like many others fell in love with Baby Yoda. Heres is my
-                very small start to this website.
-              </p>
-              <a
-                href="https://smashinator5000.github.io/Baby_Yoda/"
-                target="_blank"
-                class="btn btn-dark"
-                >View Here</a
-              >
-            </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT84NMYwIhudYEE7PSf8PDxj7phCkcttq2Gkg&usqp=CAU"
+          class="card-img-top"
+          alt="Baby Yoda">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Baby Yoda</strong></h5>
+            <p class="card-text">I, like many others fell in love with Baby Yoda. Heres is my
+              very small start to this website.</p>
+            <a href="https://smashinator5000.github.io/Baby_Yoda/"
+              target="_blank"
+              class="btn btn-primary">Check it out!</a>
+              <a href="https://smashinator5000.github.io/Baby_Yoda/"
+              target="_blank"
+              class="btn btn-primary">Github Repo</a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-11">
-            <div class="card">
-              <img
-                src="./11056626_697971100325972_3391275679899666500_o.jpg" width="320px"
-                alt="FaceBook"
-              />
-              <div class="fb">
-                <h2>Ashleys FB</h2>
-                <p>
-                  For now..Here is my facebook! 
-                </p>
-                <a
-                  href="https://www.facebook.com/ashypie89/"
-                  target="_blank"
-                  class="btn btn-dark"
-                  >View Here</a
-                >
-              </div>
+        <br>
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Eeveelutions.jpg" 
+                class="card-img-top" 
+                alt="Eeveelutions">
+            <div class="card-body">
+              <h5 class="card-title"><strong>All things Pokemon!</strong></h5>
+              <p class="card-text">Project 1</p>
+              <a href="https://gsteed1677.github.io/furry-bassoon/" 
+                target="_blank"
+                class="btn btn-primary">Check it out!</a>
+                <a href="https://github.com/gsteed1677/furry-bassoon"
+                target="_blank"
+                class="btn btn-primary">Github Repo</a>
             </div>
           </div>
-        
-
-      <!-- END MAIN -->
+          <br>
+          <div class="card" style="width: 18rem;">
+            <img src="./images/SMQG.PNG"
+                class="card-img-top"
+                alt="SMQG">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Sailor Moon QuizGame</strong></h5>
+              <p class="card-text">This is homework 4</p>
+              <a href="https://smashinator5000.github.io/Sailor.Moon.QuizGame/"
+              target="_blank"
+              class="btn btn-primary">Check it out!</a>
+              <a href="https://github.com/Smashinator5000/Sailor.Moon.QuizGame.git"
+              target="_blank"
+              class="btn btn-primary">Github Repo</a>
+            </div>
+          </div>
+          <br>  
+            <div class="card" style="width: 18rem;">
+              <img src="./images/WDS.PNG"
+              class="card-img-top"
+              alt="WDS">
+              <div class="card-body">
+                <h5 class="card-title"><strong>WorkDay Scheduler</strong></h5>
+                <p class="card-text">This is homework 5</p>
+                <a href="https://smashinator5000.github.io/daily_creations/"
+                target="_blank"
+                class="btn btn-primary">Check it out!</a>
+                <a href="https://github.com/Smashinator5000/daily_creations"
+                target="_blank"
+                class="btn btn-primary">Github Repo</a>
+              </div>
+            </div>
+        <br>
     </div>
     
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        background-color: #ffe6e6;
-        padding: 20px;
-        font-family: Arial;
-      }
-
-      /* Center website */
-      .main {
-        max-width: 1000px;
-        margin: auto;
-      }
-
-      h1 {
-        font-size: 50px;
-        word-break: break-all;
-      }
-
-      .row {
-        margin: 8px -16px;
-      }
-
-      /* Add padding BETWEEN each column (if you want) */
-      .row,
-      .row > .column {
-        padding: 8px;
-      }
-
-      /* Create four equal columns that floats next to each other */
-      .column {
-        float: left;
-        width: 25%;
-      }
-
-      /* Clear floats after rows */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-      /* Content */
-      .content {
-        background-color: white;
-        padding: 10px;
-      }
-
-      @media screen and (max-width: 900px) {
-        .column {
-          width: 50%;
-        }
-      }
-
-      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-      @media screen and (max-width: 600px) {
-        .column {
-          width: 100%;
-        }
-      }
-
-     
-    </style>
     <footer>
       <nav class="navbar fixed-bottom" style=" background-color: #caf9ff">
       <a href="https://github.com/Smashinator5000" target="_blank"> 
             <img
-              src="./kisspng-github-social-media-computer-icons-logo-android-5b348490ab20f1.548940641530168464701.png"
+              src="./images/github-icon.png"
               alt="github_icon"
               width="30px"
             />
@@ -178,17 +132,17 @@
           <p2>Have Courage</p2>
           <a href="https://www.instagram.com/smashinator5001/" target="_blank">
             <img
-              src="./kisspng-logo-computer-icons-white-instagram-5b2d14ce9aee38.2719900715296811026346.png" 
+              src="./images/IG-icon.png" 
               alt="instagram_icon"
               width="30px"
             />
           </a>
           <p2>Be Kind</p2>
-          <a href="./contact.html" target="_blank"> 
+          <a href="https://www.linkedin.com/in/ashley-bartholomew-b154aa6b/" target="_blank"> 
             <img
-              src="./kisspng-email-address-computer-icons-symbol-email-marketin-send-email-button-5ac26e368fb0d6.5766180815226916385886 (1).png" 
-              alt="msg_icon"
-              width="30px"
+              src="./images/LinkedIn.png" 
+              alt="LinkedIn_icon"
+              width="25px"
             />
           </a>
       </nav>
