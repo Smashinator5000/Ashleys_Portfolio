@@ -8,3 +8,11 @@ Portfolio page
 <img src="./images/portfolio-cap2.PNG" alt="screenshot"/>
 
 https://smashinator5000.github.io/Ashleys_Portfolio/
+
+Technologies Used:
+HTML
+CSS
+
+Licence:
+MIT
+
